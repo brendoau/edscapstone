@@ -152,15 +152,15 @@ button {
   padding: 5px 30px;
   text-align: center;
   font-style: normal;
-  font-weight: 600;
+  /* font-weight: 600; */
   cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
+  color: black;
+  background-color: yellow;
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  border-radius: 0px;
 }
 
 a.button:hover,

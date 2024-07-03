@@ -12,7 +12,7 @@ function buildCell(rowIndex) {
 
 export default async function decorate(block) {
 
-  const url = 'mysheet.json?limit=10'; // Replace with the correct URL
+  const url = 'query-index.json?limit=10';
   const jsonData = await fetchData(url);
 
   if (!jsonData) {

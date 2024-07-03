@@ -11,7 +11,7 @@ indices:
         value: attribute(el, 'content')
       image:
         select: head > meta[property="og:image"]
-        value: match(attribute(el, 'content')
+        value: attribute(el, 'content')
       description:
         select: head > meta[name="description"]
-        value: attribute(el, 'content')
+        value: attribute(el, 'content')s

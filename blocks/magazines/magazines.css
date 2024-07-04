@@ -56,3 +56,47 @@
 .table.bordered table td {
   border: 1px solid;
 }
+
+.entry-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.entry {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.entry img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.entry .text-content {
+  padding: 10px;
+}
+
+.entry h3 {
+  font-size: 1.2em;
+  margin: 0 0 10px 0;
+}
+
+.entry p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.entry a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.entry a:hover {
+  text-decoration: underline;
+}

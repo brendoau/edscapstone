@@ -1,3 +1,21 @@
-.writer {
-  background-color: blueviolet;
+.writer h3 {
+  font-size: smaller;
 }
+
+.writer h5 {
+  font-size: smaller;
+}
+
+.writer img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.writer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
